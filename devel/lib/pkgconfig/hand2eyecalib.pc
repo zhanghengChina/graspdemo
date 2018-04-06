@@ -1,0 +1,8 @@
+prefix=/home/leon/graspdemo/devel
+
+Name: hand2eyecalib
+Description: Description of hand2eyecalib
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leon/graspdemo/devel/lib 
+Requires: 

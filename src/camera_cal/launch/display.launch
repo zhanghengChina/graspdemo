@@ -1,0 +1,20 @@
+<launch>
+  <arg name="model" default="$(find zhrobot)/urdf/zhrobot.urdf"/>/>
+  <arg name="gui" default="true" />
+  <arg name="rvizconfig" default="$(find camera_cal)/rviz/realsense_default.rviz" />
+  <!--param name="robot_description" textfile="$(find zhrobot)/urdf/zhrobot.urdf" /-->
+  <param name="use_gui" value="$(arg gui)" />
+  <!--node
+    name="joint_state_publisher"
+    pkg="joint_state_publisher"
+    type="joint_state_publisher" />
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="state_publisher" /-->
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(arg rvizconfig)" required="true" />
+</launch>

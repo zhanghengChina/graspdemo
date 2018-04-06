@@ -1,0 +1,8 @@
+prefix=/home/leon/graspdemo/devel
+
+Name: grasp
+Description: Description of grasp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leon/graspdemo/devel/lib 
+Requires: 

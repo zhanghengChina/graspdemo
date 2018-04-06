@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leon/graspdemo/src/opencvtest/src/cal_opencv.cpp
+opencv2/core/core.hpp
+/home/leon/graspdemo/src/opencvtest/src/opencv2/core/core.hpp
+opencv2/imgproc/imgproc.hpp
+/home/leon/graspdemo/src/opencvtest/src/opencv2/imgproc/imgproc.hpp
+opencv2/calib3d/calib3d.hpp
+/home/leon/graspdemo/src/opencvtest/src/opencv2/calib3d/calib3d.hpp
+opencv2/highgui/highgui.hpp
+/home/leon/graspdemo/src/opencvtest/src/opencv2/highgui/highgui.hpp
+iostream
+-
+fstream
+-
+
