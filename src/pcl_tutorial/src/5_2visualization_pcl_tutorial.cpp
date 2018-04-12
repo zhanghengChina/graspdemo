@@ -308,7 +308,8 @@ int main (int argc, char** argv)
   pcl::PointCloud<pcl::Normal>::Ptr cloud_normals2 (new pcl::PointCloud<pcl::Normal>);
   ne.setRadiusSearch (0.1);
   ne.compute (*cloud_normals2);
-
+  // 这一部分的点云法线计算是12章的内容
+  
   
   boost::shared_ptr<pcl::visualization::PCLVisualizer> viewer;
   if (simple)

@@ -371,6 +371,8 @@ SET(CMAKE_DEPEND_INFO_FILES
   "pcl_tutorial/CMakeFiles/nodelet_generate_messages_cpp.dir/DependInfo.cmake"
   "pcl_tutorial/CMakeFiles/nodelet_generate_messages_lisp.dir/DependInfo.cmake"
   "pcl_tutorial/CMakeFiles/nodelet_generate_messages_py.dir/DependInfo.cmake"
+  "pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/DependInfo.cmake"
+  "pcl_tutorial/CMakeFiles/normal_extimation.dir/DependInfo.cmake"
   "pcl_tutorial/CMakeFiles/octree_search_pcl_tutorial.dir/DependInfo.cmake"
   "pcl_tutorial/CMakeFiles/passthrough_pcl.dir/DependInfo.cmake"
   "pcl_tutorial/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/DependInfo.cmake"

@@ -117,6 +117,7 @@ int main (int argc, char** argv)
   // -----Extract borders-----
   // -------------------------
   // 应该是使用的默认的滤波器
+  // 这是在12章的点云特征pcl_feature模块里面的库
   pcl::RangeImageBorderExtractor border_extractor (&range_image);
   pcl::PointCloud<pcl::BorderDescription> border_descriptions;
   border_extractor.compute (border_descriptions);

@@ -227,7 +227,7 @@ target_link_libraries(octree_search_pcl_tutorial
 )
 
 add_executable(icp_test_pcl_tutorial
-  src/icp_test_pcl_tutorial.cpp
+  src/11_1icp_test_pcl_tutorial.cpp
 )
 add_dependencies(icp_test_pcl_tutorial ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(icp_test_pcl_tutorial
@@ -336,4 +336,18 @@ add_executable(random_sample_consensus_pcl
 add_dependencies(random_sample_consensus_pcl ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(random_sample_consensus_pcl
   ${catkin_LIBRARIES} ${PCL_LIBRARIES} libvtkFiltering.so 
+)
+
+add_executable(normal_extimation src/10_1normal_extimation)
+add_dependencies(normal_extimation ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(normal_extimation
+  ${catkin_LIBRARIES} ${PCL_LIBRARIES} libvtkFiltering.so libvtkGraphics.so
+)
+
+add_executable(normal_estimation_using_internal_image
+  src/10_2normal_estimation_using_internal_image.cpp
+)
+add_dependencies(normal_estimation_using_internal_image ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(normal_estimation_using_internal_image
+  ${catkin_LIBRARIES} ${PCL_LIBRARIES} libvtkFiltering.so libvtkGraphics.so
 )

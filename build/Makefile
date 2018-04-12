@@ -683,6 +683,32 @@ nodelet_generate_messages_py/fast:
 .PHONY : nodelet_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named normal_estimation_using_internal_image
+
+# Build rule for target.
+normal_estimation_using_internal_image: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 normal_estimation_using_internal_image
+.PHONY : normal_estimation_using_internal_image
+
+# fast build rule for target.
+normal_estimation_using_internal_image/fast:
+	$(MAKE) -f pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/build.make pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/build
+.PHONY : normal_estimation_using_internal_image/fast
+
+#=============================================================================
+# Target rules for targets named normal_extimation
+
+# Build rule for target.
+normal_extimation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 normal_extimation
+.PHONY : normal_extimation
+
+# fast build rule for target.
+normal_extimation/fast:
+	$(MAKE) -f pcl_tutorial/CMakeFiles/normal_extimation.dir/build.make pcl_tutorial/CMakeFiles/normal_extimation.dir/build
+.PHONY : normal_extimation/fast
+
+#=============================================================================
 # Target rules for targets named octree_search_pcl_tutorial
 
 # Build rule for target.
@@ -1581,6 +1607,8 @@ help:
 	@echo "... nodelet_generate_messages_cpp"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_py"
+	@echo "... normal_estimation_using_internal_image"
+	@echo "... normal_extimation"
 	@echo "... octree_search_pcl_tutorial"
 	@echo "... passthrough_pcl"
 	@echo "... pcl_msgs_generate_messages_cpp"

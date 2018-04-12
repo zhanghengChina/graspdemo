@@ -263,7 +263,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/leon/zzm/devel;/home/leon/zack/devel;/home/leon/emg_project/devel;/home/leon/graspdemo/devel;/home/leon/mobile_manipulator/devel;/home/leon/catkin/devel;/opt/ros/indigo'.split(';')
+        CMAKE_PREFIX_PATH = '/home/leon/kinect2/kinect_ros_support/devel;/home/leon/zzm/devel;/home/leon/zack/devel;/home/leon/emg_project/devel;/home/leon/graspdemo/devel;/home/leon/mobile_manipulator/devel;/home/leon/catkin/devel;/opt/ros/indigo'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

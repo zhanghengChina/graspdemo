@@ -500,6 +500,34 @@ nodelet_generate_messages_py/fast:
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
+pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/rule:
+	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/rule
+.PHONY : pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/rule
+
+# Convenience name for target.
+normal_estimation_using_internal_image: pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/rule
+.PHONY : normal_estimation_using_internal_image
+
+# fast build rule for target.
+normal_estimation_using_internal_image/fast:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/build.make pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/build
+.PHONY : normal_estimation_using_internal_image/fast
+
+# Convenience name for target.
+pcl_tutorial/CMakeFiles/normal_extimation.dir/rule:
+	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 pcl_tutorial/CMakeFiles/normal_extimation.dir/rule
+.PHONY : pcl_tutorial/CMakeFiles/normal_extimation.dir/rule
+
+# Convenience name for target.
+normal_extimation: pcl_tutorial/CMakeFiles/normal_extimation.dir/rule
+.PHONY : normal_extimation
+
+# fast build rule for target.
+normal_extimation/fast:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_extimation.dir/build.make pcl_tutorial/CMakeFiles/normal_extimation.dir/build
+.PHONY : normal_extimation/fast
+
+# Convenience name for target.
 pcl_tutorial/CMakeFiles/octree_search_pcl_tutorial.dir/rule:
 	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 pcl_tutorial/CMakeFiles/octree_search_pcl_tutorial.dir/rule
 .PHONY : pcl_tutorial/CMakeFiles/octree_search_pcl_tutorial.dir/rule
@@ -876,6 +904,54 @@ voxel_grid_pcl_tutorial: pcl_tutorial/CMakeFiles/voxel_grid_pcl_tutorial.dir/rul
 voxel_grid_pcl_tutorial/fast:
 	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/voxel_grid_pcl_tutorial.dir/build.make pcl_tutorial/CMakeFiles/voxel_grid_pcl_tutorial.dir/build
 .PHONY : voxel_grid_pcl_tutorial/fast
+
+src/10_1normal_extimation.o: src/10_1normal_extimation.cpp.o
+.PHONY : src/10_1normal_extimation.o
+
+# target to build an object file
+src/10_1normal_extimation.cpp.o:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_extimation.dir/build.make pcl_tutorial/CMakeFiles/normal_extimation.dir/src/10_1normal_extimation.cpp.o
+.PHONY : src/10_1normal_extimation.cpp.o
+
+src/10_1normal_extimation.i: src/10_1normal_extimation.cpp.i
+.PHONY : src/10_1normal_extimation.i
+
+# target to preprocess a source file
+src/10_1normal_extimation.cpp.i:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_extimation.dir/build.make pcl_tutorial/CMakeFiles/normal_extimation.dir/src/10_1normal_extimation.cpp.i
+.PHONY : src/10_1normal_extimation.cpp.i
+
+src/10_1normal_extimation.s: src/10_1normal_extimation.cpp.s
+.PHONY : src/10_1normal_extimation.s
+
+# target to generate assembly for a file
+src/10_1normal_extimation.cpp.s:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_extimation.dir/build.make pcl_tutorial/CMakeFiles/normal_extimation.dir/src/10_1normal_extimation.cpp.s
+.PHONY : src/10_1normal_extimation.cpp.s
+
+src/10_2normal_estimation_using_internal_image.o: src/10_2normal_estimation_using_internal_image.cpp.o
+.PHONY : src/10_2normal_estimation_using_internal_image.o
+
+# target to build an object file
+src/10_2normal_estimation_using_internal_image.cpp.o:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/build.make pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/src/10_2normal_estimation_using_internal_image.cpp.o
+.PHONY : src/10_2normal_estimation_using_internal_image.cpp.o
+
+src/10_2normal_estimation_using_internal_image.i: src/10_2normal_estimation_using_internal_image.cpp.i
+.PHONY : src/10_2normal_estimation_using_internal_image.i
+
+# target to preprocess a source file
+src/10_2normal_estimation_using_internal_image.cpp.i:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/build.make pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/src/10_2normal_estimation_using_internal_image.cpp.i
+.PHONY : src/10_2normal_estimation_using_internal_image.cpp.i
+
+src/10_2normal_estimation_using_internal_image.s: src/10_2normal_estimation_using_internal_image.cpp.s
+.PHONY : src/10_2normal_estimation_using_internal_image.s
+
+# target to generate assembly for a file
+src/10_2normal_estimation_using_internal_image.cpp.s:
+	cd /home/leon/graspdemo/build && $(MAKE) -f pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/build.make pcl_tutorial/CMakeFiles/normal_estimation_using_internal_image.dir/src/10_2normal_estimation_using_internal_image.cpp.s
+.PHONY : src/10_2normal_estimation_using_internal_image.cpp.s
 
 src/1example_pcl_tutorial.o: src/1example_pcl_tutorial.cpp.o
 .PHONY : src/1example_pcl_tutorial.o
@@ -1321,6 +1397,8 @@ help:
 	@echo "... nodelet_generate_messages_cpp"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_py"
+	@echo "... normal_estimation_using_internal_image"
+	@echo "... normal_extimation"
 	@echo "... octree_search_pcl_tutorial"
 	@echo "... passthrough_pcl"
 	@echo "... pcl_msgs_generate_messages_cpp"
@@ -1350,6 +1428,12 @@ help:
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... visualization_pcl_tutorial"
 	@echo "... voxel_grid_pcl_tutorial"
+	@echo "... src/10_1normal_extimation.o"
+	@echo "... src/10_1normal_extimation.i"
+	@echo "... src/10_1normal_extimation.s"
+	@echo "... src/10_2normal_estimation_using_internal_image.o"
+	@echo "... src/10_2normal_estimation_using_internal_image.i"
+	@echo "... src/10_2normal_estimation_using_internal_image.s"
 	@echo "... src/1example_pcl_tutorial.o"
 	@echo "... src/1example_pcl_tutorial.i"
 	@echo "... src/1example_pcl_tutorial.s"

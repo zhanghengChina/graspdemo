@@ -1,4 +1,6 @@
-
+// 这个节点是根据深度图像提取NARF关键点
+// 所谓NARF关键点，和sift关键点类似，是深度图像中的一种关键点。 
+// 利用关键点进行后续配准可以大大节省时间提高效率
 
 #include <iostream>
 #include "ros/ros.h"
@@ -13,17 +15,12 @@
 
 typedef pcl::PointXYZ PointType;
 
-// --------------------
-// -----Parameters-----
-// --------------------
+// parameters for range image
 float angular_resolution = 0.5f;
 float support_size = 0.2f;
 pcl::RangeImage::CoordinateFrame coordinate_frame = pcl::RangeImage::CAMERA_FRAME;
 bool setUnseenToMaxRange = false;
 
-// --------------
-// -----Help-----
-// --------------
 void 
 printUsage (const char* progName)
 {
@@ -121,6 +118,7 @@ int main (int argc, char** argv)
   float noise_level = 0.0;
   float min_range = 0.0f;
   int border_size = 1;
+
   boost::shared_ptr<pcl::RangeImage> range_image_ptr (new pcl::RangeImage);
   pcl::RangeImage& range_image = *range_image_ptr;   
   range_image.createFromPointCloud (point_cloud, angular_resolution, pcl::deg2rad (360.0f), pcl::deg2rad (180.0f),
@@ -129,9 +127,7 @@ int main (int argc, char** argv)
   if (setUnseenToMaxRange)
     range_image.setUnseenToMaxRange ();
   
-  // --------------------------------------------
-  // -----Open 3D viewer and add point cloud-----
-  // --------------------------------------------
+  
   pcl::visualization::PCLVisualizer viewer ("3D Viewer");
   viewer.setBackgroundColor (1, 1, 1);
   pcl::visualization::PointCloudColorHandlerCustom<pcl::PointWithRange> range_image_color_handler (range_image_ptr, 0, 0, 0);
