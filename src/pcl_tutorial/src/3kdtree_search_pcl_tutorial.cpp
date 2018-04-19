@@ -25,7 +25,7 @@ int main (int argc, char**argv)
         cloud->points[i].z =1024.0f* rand () / (RAND_MAX +1.0f);
     }
 
-    pcl::KdTreeFLANN<pcl::PointXYZ> kdtree;
+    pcl::KdTreeFLANN<pcl::PointXYZ> kdtree; // 默认调用空的构造函数
     kdtree.setInputCloud(cloud);
     pcl::PointXYZ searchPoint;
     searchPoint.x=1024.0f* rand () / (RAND_MAX +1.0f);

@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(camera_cal)
+SUBDIRS(cube_object_icp)
 SUBDIRS(pcl_tutorial)
 SUBDIRS(sh_ctrl)
 SUBDIRS(grasp)

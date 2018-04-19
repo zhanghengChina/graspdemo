@@ -1,0 +1,8 @@
+prefix=/home/leon/graspdemo/install
+
+Name: cube_object_icp
+Description: Description of cube_object_icp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leon/graspdemo/install/lib 
+Requires: 

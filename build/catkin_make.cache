@@ -1,2 +1,2 @@
-camera_cal:grasp:hand2eyecalib:opencvtest:pcl_tutorial:sh_ctrl
+camera_cal:cube_object_icp:grasp:hand2eyecalib:opencvtest:pcl_tutorial:sh_ctrl
 -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/leon/graspdemo/devel -DCMAKE_INSTALL_PREFIX=/home/leon/graspdemo/install -G Unix Makefiles

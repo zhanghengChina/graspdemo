@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/icp_test_pcl_tutorial.dir/src/icp_test_pcl_tutorial.cpp.o"
+  "CMakeFiles/icp_test_pcl_tutorial.dir/src/11_1icp_test_pcl_tutorial.cpp.o"
   "/home/leon/graspdemo/devel/lib/pcl_tutorial/icp_test_pcl_tutorial.pdb"
   "/home/leon/graspdemo/devel/lib/pcl_tutorial/icp_test_pcl_tutorial"
 )

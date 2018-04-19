@@ -1,0 +1,8 @@
+prefix=/home/leon/graspdemo/devel
+
+Name: pcl_based_grasping
+Description: Description of pcl_based_grasping
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leon/graspdemo/devel/lib 
+Requires: 

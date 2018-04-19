@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/leon/graspdemo/src/pcl_tutorial/src/icp_test_pcl_tutorial.cpp
+/home/leon/graspdemo/src/pcl_tutorial/src/11_1icp_test_pcl_tutorial.cpp
 iostream
 -
 pcl/io/pcd_io.h

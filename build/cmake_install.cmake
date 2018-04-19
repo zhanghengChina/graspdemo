@@ -118,6 +118,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/leon/graspdemo/build/gtest/cmake_install.cmake")
   INCLUDE("/home/leon/graspdemo/build/camera_cal/cmake_install.cmake")
+  INCLUDE("/home/leon/graspdemo/build/cube_object_icp/cmake_install.cmake")
   INCLUDE("/home/leon/graspdemo/build/pcl_tutorial/cmake_install.cmake")
   INCLUDE("/home/leon/graspdemo/build/sh_ctrl/cmake_install.cmake")
   INCLUDE("/home/leon/graspdemo/build/grasp/cmake_install.cmake")

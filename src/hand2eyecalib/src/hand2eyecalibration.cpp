@@ -73,58 +73,59 @@ public:
         cal_poses.resize(6);
 
         //正常位恣
-        cal_poses[0].position.x = 0.554535;
-        cal_poses[0].position.y = -0.0190335;
-        cal_poses[0].position.z = 0.834113;
-        cal_poses[0].orientation.x = -0.91615;
-        cal_poses[0].orientation.y = 0.399768;
-        cal_poses[0].orientation.z = -0.0214981;
-        cal_poses[0].orientation.w = 0.0198302;
+        cal_poses[0].position.x = 0.530;
+        cal_poses[0].position.y = -0.063;
+        cal_poses[0].position.z = 0.544;
+        cal_poses[0].orientation.x = -0.695;
+        cal_poses[0].orientation.y = 0.714;
+        cal_poses[0].orientation.z = -0.007;
+        cal_poses[0].orientation.w = 0.084;
 
         //向后
-        cal_poses[1].position.x = 0.246834;
-        cal_poses[1].position.y = -0.102558;
-        cal_poses[1].position.z = 0.594104;
-        cal_poses[1].orientation.x = -0.887616;
-        cal_poses[1].orientation.y = 0.38696;
-        cal_poses[1].orientation.z = -0.193535;
-        cal_poses[1].orientation.w = 0.15792;
+        cal_poses[1].position.x = 0.156;
+        cal_poses[1].position.y = -0.131;
+        cal_poses[1].position.z = 0.409;
+        cal_poses[1].orientation.x = 0.648;
+        cal_poses[1].orientation.y = -0.646;
+        cal_poses[1].orientation.z = 0.193;
+        cal_poses[1].orientation.w = -0.353;
 
 
         //向前
-        cal_poses[2].position.x = 0.954965;
-        cal_poses[2].position.y = 0.0519097;
-        cal_poses[2].position.z = 0.619134;
-        cal_poses[2].orientation.x = 0.877096;
-        cal_poses[2].orientation.y = -0.40378;
-        cal_poses[2].orientation.z = -0.207149;
-        cal_poses[2].orientation.w = 0.157331;
+        cal_poses[2].position.x = 0.926;
+        cal_poses[2].position.y = -0.023;
+        cal_poses[2].position.z = 0.567;
+        cal_poses[2].orientation.x = 0.759;
+        cal_poses[2].orientation.y = -0.616;
+        cal_poses[2].orientation.z = -0.169;
+        cal_poses[2].orientation.w = 0.122;
 
         //向左
-        cal_poses[3].position.x = 0.271583;
-        cal_poses[3].position.y = -0.409755;
-        cal_poses[3].position.z = 0.673909;
-        cal_poses[3].orientation.x = -0.573487;
-        cal_poses[3].orientation.y = 0.67471;
-        cal_poses[3].orientation.z = 0.0941883;
-        cal_poses[3].orientation.w = 0.454981;
+        cal_poses[3].position.x = 0.488;
+        cal_poses[3].position.y = -0.473;
+        cal_poses[3].position.z = 0.523;
+        cal_poses[3].orientation.x = -0.599;
+        cal_poses[3].orientation.y = 0.692;
+        cal_poses[3].orientation.z = 0.201;
+        cal_poses[3].orientation.w = 0.349;
 
         //向右
-        cal_poses[4].position.x = 0.459985;
-        cal_poses[4].position.y = 0.569304;
-        cal_poses[4].position.z = 0.569947;
-        cal_poses[4].orientation.x = 0.86657;
-        cal_poses[4].orientation.y = 0.244459;
-        cal_poses[4].orientation.z = -0.0269062;
-        cal_poses[4].orientation.w = 0.434237;
+        cal_poses[4].position.x = 0.556;
+        cal_poses[4].position.y = 0.319;
+        cal_poses[4].position.z = 0.488;
+        cal_poses[4].orientation.x = 0.731;
+        cal_poses[4].orientation.y = -0.642;
+        cal_poses[4].orientation.z = 0.2;
+        cal_poses[4].orientation.w = 0.113;
 
-        cal_poses[5].position.x = 0.504905;
-        cal_poses[5].position.y = -0.0195077;
-        cal_poses[5].position.z = 0.552653;
-        cal_poses[5].orientation.x = -0.923636;
-        cal_poses[5].orientation.y = 0.380849;
-        cal_poses[5].orientation.z = -0.0402378;
-        cal_poses[5].orientation.w = 0.0151954;
+        // 中间
+        cal_poses[5].position.x = 0.444;
+        cal_poses[5].position.y = -0.152;
+        cal_poses[5].position.z = 0.805;
+        cal_poses[5].orientation.x = -0.17;
+        cal_poses[5].orientation.y = 0.968;
+        cal_poses[5].orientation.z = 0.036;
+        cal_poses[5].orientation.w = 0.183;
 
         cv::namedWindow(INPUT);  
         cv::namedWindow(OUTPUT);  
