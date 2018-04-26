@@ -1489,6 +1489,19 @@ data_type_and_action/fast:
 .PHONY : data_type_and_action/fast
 
 #=============================================================================
+# Target rules for targets named dft
+
+# Build rule for target.
+dft: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dft
+.PHONY : dft
+
+# fast build rule for target.
+dft/fast:
+	$(MAKE) -f opencvtest/CMakeFiles/dft.dir/build.make opencvtest/CMakeFiles/dft.dir/build
+.PHONY : dft/fast
+
+#=============================================================================
 # Target rules for targets named getCurrentPose
 
 # Build rule for target.
@@ -1565,6 +1578,45 @@ ros_image: cmake_check_build_system
 ros_image/fast:
 	$(MAKE) -f opencvtest/CMakeFiles/ros_image.dir/build.make opencvtest/CMakeFiles/ros_image.dir/build
 .PHONY : ros_image/fast
+
+#=============================================================================
+# Target rules for targets named shitomasi
+
+# Build rule for target.
+shitomasi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shitomasi
+.PHONY : shitomasi
+
+# fast build rule for target.
+shitomasi/fast:
+	$(MAKE) -f opencvtest/CMakeFiles/shitomasi.dir/build.make opencvtest/CMakeFiles/shitomasi.dir/build
+.PHONY : shitomasi/fast
+
+#=============================================================================
+# Target rules for targets named sift
+
+# Build rule for target.
+sift: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sift
+.PHONY : sift
+
+# fast build rule for target.
+sift/fast:
+	$(MAKE) -f opencvtest/CMakeFiles/sift.dir/build.make opencvtest/CMakeFiles/sift.dir/build
+.PHONY : sift/fast
+
+#=============================================================================
+# Target rules for targets named surf
+
+# Build rule for target.
+surf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 surf
+.PHONY : surf
+
+# fast build rule for target.
+surf/fast:
+	$(MAKE) -f opencvtest/CMakeFiles/surf.dir/build.make opencvtest/CMakeFiles/surf.dir/build
+.PHONY : surf/fast
 
 #=============================================================================
 # Target rules for targets named trackbar_creator
@@ -1695,12 +1747,16 @@ help:
 	@echo "... verify_hand2eye_calib_result"
 	@echo "... bar_demo"
 	@echo "... data_type_and_action"
+	@echo "... dft"
 	@echo "... getCurrentPose"
 	@echo "... image_overlay"
 	@echo "... image_show"
 	@echo "... image_travelsal"
 	@echo "... read_and_show_image"
 	@echo "... ros_image"
+	@echo "... shitomasi"
+	@echo "... sift"
+	@echo "... surf"
 	@echo "... trackbar_creator"
 .PHONY : help
 

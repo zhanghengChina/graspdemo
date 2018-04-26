@@ -271,3 +271,36 @@ add_dependencies(image_overlay ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPO
 target_link_libraries(image_overlay
   ${catkin_LIBRARIES}
 )
+
+
+add_executable(dft
+  src/6dft.cpp
+)
+add_dependencies(dft ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(dft
+  ${catkin_LIBRARIES}
+)
+
+add_executable(surf
+  src/surf.cpp
+)
+add_dependencies(surf ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(surf
+  ${catkin_LIBRARIES} ${OpenCV_LIBS}
+)
+
+add_executable(shitomasi
+  src/shitomasi.cpp
+)
+add_dependencies(shitomasi ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(shitomasi
+  ${catkin_LIBRARIES}
+)
+
+add_executable(sift
+  src/sift.cpp
+)
+add_dependencies(sift ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(sift
+  ${catkin_LIBRARIES}
+)

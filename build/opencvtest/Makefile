@@ -178,6 +178,20 @@ data_type_and_action/fast:
 .PHONY : data_type_and_action/fast
 
 # Convenience name for target.
+opencvtest/CMakeFiles/dft.dir/rule:
+	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 opencvtest/CMakeFiles/dft.dir/rule
+.PHONY : opencvtest/CMakeFiles/dft.dir/rule
+
+# Convenience name for target.
+dft: opencvtest/CMakeFiles/dft.dir/rule
+.PHONY : dft
+
+# fast build rule for target.
+dft/fast:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/dft.dir/build.make opencvtest/CMakeFiles/dft.dir/build
+.PHONY : dft/fast
+
+# Convenience name for target.
 opencvtest/CMakeFiles/getCurrentPose.dir/rule:
 	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 opencvtest/CMakeFiles/getCurrentPose.dir/rule
 .PHONY : opencvtest/CMakeFiles/getCurrentPose.dir/rule
@@ -260,6 +274,48 @@ ros_image: opencvtest/CMakeFiles/ros_image.dir/rule
 ros_image/fast:
 	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/ros_image.dir/build.make opencvtest/CMakeFiles/ros_image.dir/build
 .PHONY : ros_image/fast
+
+# Convenience name for target.
+opencvtest/CMakeFiles/shitomasi.dir/rule:
+	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 opencvtest/CMakeFiles/shitomasi.dir/rule
+.PHONY : opencvtest/CMakeFiles/shitomasi.dir/rule
+
+# Convenience name for target.
+shitomasi: opencvtest/CMakeFiles/shitomasi.dir/rule
+.PHONY : shitomasi
+
+# fast build rule for target.
+shitomasi/fast:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/shitomasi.dir/build.make opencvtest/CMakeFiles/shitomasi.dir/build
+.PHONY : shitomasi/fast
+
+# Convenience name for target.
+opencvtest/CMakeFiles/sift.dir/rule:
+	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 opencvtest/CMakeFiles/sift.dir/rule
+.PHONY : opencvtest/CMakeFiles/sift.dir/rule
+
+# Convenience name for target.
+sift: opencvtest/CMakeFiles/sift.dir/rule
+.PHONY : sift
+
+# fast build rule for target.
+sift/fast:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/sift.dir/build.make opencvtest/CMakeFiles/sift.dir/build
+.PHONY : sift/fast
+
+# Convenience name for target.
+opencvtest/CMakeFiles/surf.dir/rule:
+	cd /home/leon/graspdemo/build && $(MAKE) -f CMakeFiles/Makefile2 opencvtest/CMakeFiles/surf.dir/rule
+.PHONY : opencvtest/CMakeFiles/surf.dir/rule
+
+# Convenience name for target.
+surf: opencvtest/CMakeFiles/surf.dir/rule
+.PHONY : surf
+
+# fast build rule for target.
+surf/fast:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/surf.dir/build.make opencvtest/CMakeFiles/surf.dir/build
+.PHONY : surf/fast
 
 # Convenience name for target.
 opencvtest/CMakeFiles/trackbar_creator.dir/rule:
@@ -395,6 +451,30 @@ src/5image_overlay.cpp.s:
 	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/image_overlay.dir/build.make opencvtest/CMakeFiles/image_overlay.dir/src/5image_overlay.cpp.s
 .PHONY : src/5image_overlay.cpp.s
 
+src/6dft.o: src/6dft.cpp.o
+.PHONY : src/6dft.o
+
+# target to build an object file
+src/6dft.cpp.o:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/dft.dir/build.make opencvtest/CMakeFiles/dft.dir/src/6dft.cpp.o
+.PHONY : src/6dft.cpp.o
+
+src/6dft.i: src/6dft.cpp.i
+.PHONY : src/6dft.i
+
+# target to preprocess a source file
+src/6dft.cpp.i:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/dft.dir/build.make opencvtest/CMakeFiles/dft.dir/src/6dft.cpp.i
+.PHONY : src/6dft.cpp.i
+
+src/6dft.s: src/6dft.cpp.s
+.PHONY : src/6dft.s
+
+# target to generate assembly for a file
+src/6dft.cpp.s:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/dft.dir/build.make opencvtest/CMakeFiles/dft.dir/src/6dft.cpp.s
+.PHONY : src/6dft.cpp.s
+
 src/bar_demo.o: src/bar_demo.cpp.o
 .PHONY : src/bar_demo.o
 
@@ -491,6 +571,78 @@ src/ros_image.cpp.s:
 	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/ros_image.dir/build.make opencvtest/CMakeFiles/ros_image.dir/src/ros_image.cpp.s
 .PHONY : src/ros_image.cpp.s
 
+src/shitomasi.o: src/shitomasi.cpp.o
+.PHONY : src/shitomasi.o
+
+# target to build an object file
+src/shitomasi.cpp.o:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/shitomasi.dir/build.make opencvtest/CMakeFiles/shitomasi.dir/src/shitomasi.cpp.o
+.PHONY : src/shitomasi.cpp.o
+
+src/shitomasi.i: src/shitomasi.cpp.i
+.PHONY : src/shitomasi.i
+
+# target to preprocess a source file
+src/shitomasi.cpp.i:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/shitomasi.dir/build.make opencvtest/CMakeFiles/shitomasi.dir/src/shitomasi.cpp.i
+.PHONY : src/shitomasi.cpp.i
+
+src/shitomasi.s: src/shitomasi.cpp.s
+.PHONY : src/shitomasi.s
+
+# target to generate assembly for a file
+src/shitomasi.cpp.s:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/shitomasi.dir/build.make opencvtest/CMakeFiles/shitomasi.dir/src/shitomasi.cpp.s
+.PHONY : src/shitomasi.cpp.s
+
+src/sift.o: src/sift.cpp.o
+.PHONY : src/sift.o
+
+# target to build an object file
+src/sift.cpp.o:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/sift.dir/build.make opencvtest/CMakeFiles/sift.dir/src/sift.cpp.o
+.PHONY : src/sift.cpp.o
+
+src/sift.i: src/sift.cpp.i
+.PHONY : src/sift.i
+
+# target to preprocess a source file
+src/sift.cpp.i:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/sift.dir/build.make opencvtest/CMakeFiles/sift.dir/src/sift.cpp.i
+.PHONY : src/sift.cpp.i
+
+src/sift.s: src/sift.cpp.s
+.PHONY : src/sift.s
+
+# target to generate assembly for a file
+src/sift.cpp.s:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/sift.dir/build.make opencvtest/CMakeFiles/sift.dir/src/sift.cpp.s
+.PHONY : src/sift.cpp.s
+
+src/surf.o: src/surf.cpp.o
+.PHONY : src/surf.o
+
+# target to build an object file
+src/surf.cpp.o:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/surf.dir/build.make opencvtest/CMakeFiles/surf.dir/src/surf.cpp.o
+.PHONY : src/surf.cpp.o
+
+src/surf.i: src/surf.cpp.i
+.PHONY : src/surf.i
+
+# target to preprocess a source file
+src/surf.cpp.i:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/surf.dir/build.make opencvtest/CMakeFiles/surf.dir/src/surf.cpp.i
+.PHONY : src/surf.cpp.i
+
+src/surf.s: src/surf.cpp.s
+.PHONY : src/surf.s
+
+# target to generate assembly for a file
+src/surf.cpp.s:
+	cd /home/leon/graspdemo/build && $(MAKE) -f opencvtest/CMakeFiles/surf.dir/build.make opencvtest/CMakeFiles/surf.dir/src/surf.cpp.s
+.PHONY : src/surf.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -499,6 +651,7 @@ help:
 	@echo "... depend"
 	@echo "... bar_demo"
 	@echo "... data_type_and_action"
+	@echo "... dft"
 	@echo "... edit_cache"
 	@echo "... getCurrentPose"
 	@echo "... image_overlay"
@@ -511,6 +664,9 @@ help:
 	@echo "... read_and_show_image"
 	@echo "... rebuild_cache"
 	@echo "... ros_image"
+	@echo "... shitomasi"
+	@echo "... sift"
+	@echo "... surf"
 	@echo "... test"
 	@echo "... trackbar_creator"
 	@echo "... src/1read_and_show_image.o"
@@ -528,6 +684,9 @@ help:
 	@echo "... src/5image_overlay.o"
 	@echo "... src/5image_overlay.i"
 	@echo "... src/5image_overlay.s"
+	@echo "... src/6dft.o"
+	@echo "... src/6dft.i"
+	@echo "... src/6dft.s"
 	@echo "... src/bar_demo.o"
 	@echo "... src/bar_demo.i"
 	@echo "... src/bar_demo.s"
@@ -540,6 +699,15 @@ help:
 	@echo "... src/ros_image.o"
 	@echo "... src/ros_image.i"
 	@echo "... src/ros_image.s"
+	@echo "... src/shitomasi.o"
+	@echo "... src/shitomasi.i"
+	@echo "... src/shitomasi.s"
+	@echo "... src/sift.o"
+	@echo "... src/sift.i"
+	@echo "... src/sift.s"
+	@echo "... src/surf.o"
+	@echo "... src/surf.i"
+	@echo "... src/surf.s"
 .PHONY : help
 
 

@@ -15,6 +15,7 @@
 /home/leon/graspdemo/build/CMakeFiles/clean_test_results.dir
 /home/leon/graspdemo/build/cube_object_icp/CMakeFiles/cube_object_icp.dir
 /home/leon/graspdemo/build/opencvtest/CMakeFiles/data_type_and_action.dir
+/home/leon/graspdemo/build/opencvtest/CMakeFiles/dft.dir
 /home/leon/graspdemo/build/CMakeFiles/download_extra_data.dir
 /home/leon/graspdemo/build/CMakeFiles/doxygen.dir
 /home/leon/graspdemo/build/cube_object_icp/CMakeFiles/dynamic_reconfigure_gencfg.dir
@@ -83,10 +84,13 @@
 /home/leon/graspdemo/build/grasp/CMakeFiles/shape_msgs_generate_messages_cpp.dir
 /home/leon/graspdemo/build/grasp/CMakeFiles/shape_msgs_generate_messages_lisp.dir
 /home/leon/graspdemo/build/grasp/CMakeFiles/shape_msgs_generate_messages_py.dir
+/home/leon/graspdemo/build/opencvtest/CMakeFiles/shitomasi.dir
+/home/leon/graspdemo/build/opencvtest/CMakeFiles/sift.dir
 /home/leon/graspdemo/build/pcl_tutorial/CMakeFiles/statistical_removal_pcl_tutorial.dir
 /home/leon/graspdemo/build/camera_cal/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/leon/graspdemo/build/camera_cal/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/leon/graspdemo/build/camera_cal/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/leon/graspdemo/build/opencvtest/CMakeFiles/surf.dir
 /home/leon/graspdemo/build/sh_ctrl/CMakeFiles/target_pose_estimation.dir
 /home/leon/graspdemo/build/CMakeFiles/tests.dir
 /home/leon/graspdemo/build/cube_object_icp/CMakeFiles/tf2_msgs_generate_messages_cpp.dir
